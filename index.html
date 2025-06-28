@@ -1,88 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nu Sirop</title>
+  <meta charset="UTF-8">
+  <title>Kung Fu Tea Menu</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #ffe29f, #ffa99f);
-      color: #333;
-    }
-
-    .container {
-      padding: 30px;
-      max-width: 800px;
-      margin: auto;
-      background-color: rgba(255, 255, 255, 0.85);
-      border-radius: 12px;
-      margin-top: 40px;
-    }
-
-    h1, h2 {
-      text-align: center;
-    }
-
-    .menu {
-      margin-top: 30px;
-    }
-
-    .menu-item {
-      display: flex;
-      justify-content: space-between;
-      border-bottom: 1px solid #ccc;
-      padding: 10px 0;
-    }
-
-    .map {
-      margin: 30px 0;
-      text-align: center;
-    }
-
-    .address {
-      text-align: center;
-      font-style: italic;
-    }
+    body { font-family: Arial, sans-serif; background: #fff8f0; margin: 20px; }
+    h1 { text-align: center; color: #333; }
+    .menu-section { margin-bottom: 40px; }
+    .item { display: flex; align-items: center; margin-bottom: 20px; }
+    .item img { width: 120px; height: 120px; object-fit: cover; border-radius: 10px; margin-right: 20px; }
+    .item-info { max-width: 600px; }
+    .item-info h3 { margin: 0 0 5px; }
+    .item-info p { margin: 0; color: #555; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Nu Sirop</h1>
-    <p>Your spot for cozy coffee and good vibes.</p>
 
-    <div class="menu">
-      <h2>Menu</h2>
-      <div class="menu-item">
-        <span>Espresso</span><span>$2.50</span>
-      </div>
-      <div class="menu-item">
-        <span>Cappuccino</span><span>$3.00</span>
-      </div>
-      <div class="menu-item">
-        <span>Avocado Toast</span><span>$4.50</span>
-      </div>
-      <div class="menu-item">
-        <span>Blueberry Muffin</span><span>$2.25</span>
+  <h1>Kung Fu Tea Menu</h1>
+
+  <div class="menu-section">
+    <h2>Milk Teas</h2>
+    <div class="item">
+      <img src="https://example.com/kungfu-milk-tea.jpg" alt="Kung Fu Milk Tea">
+      <div class="item-info">
+        <h3>Kung Fu Milk Tea</h3>
+        <p>Classic black tea with creamy milk and chewy boba.</p>
       </div>
     </div>
-
-    <div class="map">
-      <h2>Find Us</h2>
-      <iframe
-        src="https://maps.app.goo.gl/8NaEfDgMMRAmXnBf7"
-        width="100%"
-        height="300"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy">
-      </iframe>
-    </div>
-
-    <div class="address">
-      📍 123 Beachside Blvd, Fort Lauderdale, FL 33301
+    <div class="item">
+      <img src="https://example.com/taro-milk-tea.jpg" alt="Taro Milk Tea">
+      <div class="item-info">
+        <h3>Taro Milk Tea</h3>
+        <p>Sweet and nutty taro flavor blended with milk tea.</p>
+      </div>
     </div>
   </div>
+
+  <div class="menu-section">
+    <h2>Fruit Teas</h2>
+    <div class="item">
+      <img src="https://example.com/mango-green-tea.jpg" alt="Mango Green Tea">
+      <div class="item-info">
+        <h3>Mango Green Tea</h3>
+        <p>Refreshing green tea infused with mango flavor.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://example.com/passion-fruit-tea.jpg" alt="Passion Fruit Tea">
+      <div class="item-info">
+        <h3>Passion Fruit Tea</h3>
+        <p>Bright and tangy passion fruit with green tea.</p>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
